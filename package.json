@@ -1,0 +1,36 @@
+{
+  "name": "s3e31",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "world": "node ./dist/hello-world-2.js",
+    "steps": "node ./dist/baby-steps-2.js",
+    "io": "node ./dist/my-first-io-2.js",
+    "async-io": "node ./dist/my-first-async-io-2.js",
+    "filtered": "node ./dist/filtered-ls-2.js",
+    "modular": "node ./dist/make-it-modular-2.js",
+    "client": "node ./dist/http-client-2.js",
+    "collect": "node ./dist/http-collect-2.js",
+    "juggling": "node ./dist/juggling-async-2.js",
+    "time": "node ./dist/time-server-2.js",
+    "file": "node ./dist/http-file-server-2.js",
+    "uppercase": "node ./dist/http-uppercaserer-2.js",
+    "json-api": "node ./dist/http-json-api-server-2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "bl": "^6.0.14",
+    "through2-map": "^4.0.0"
+  }
+}
