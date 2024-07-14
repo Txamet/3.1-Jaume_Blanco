@@ -1,0 +1,11 @@
+Una funció debounce és una tècnica per controlar la freqüència d'execució d'una funció en 
+resposta a esdeveniments com ara clics, desplaçaments o altres accions de l'usuari.
+ 
+L'objectiu d'aquesta funció és evitar que s'executi massa ràpida i repetidament, sobretot quan
+els esdeveniments es produeixen amb molta freqüència. 
+
+Bàsicament, la funció debounce retarda l'execució fins que ha transcorregut un cert temps sense
+que es produeixi cap altre esdeveniment. 
+
+En aquesta tasca has d'implementar una funció debounce. 
+La funció ha de ser implementada utilitzant TypeScript i TDD.

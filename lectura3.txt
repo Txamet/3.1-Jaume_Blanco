@@ -1,0 +1,14 @@
+La funció memoize permet optimitzar el rendiment en funcions que tenen una gran complexitat
+computacional o s'executen amb freqüència. 
+
+Consisteix a guardar en una memòria cau (caché) els resultats de les crides anteriors i els 
+associa amb els valors d'entrada corresponents. 
+
+Quan la mateixa funció s'invoca amb els mateixos valors d'entrada, en lloc d'executar tota la
+lògica de la funció, es comprova primer si ja existeix un resultat emmagatzemat per a aquells 
+valors i es retorna directament. 
+
+Això estalvia temps de càlcul i millora el rendiment de la funció.
+
+En aquesta tasca has d'implementar una funció memoize. 
+La funció ha de ser implementada utilitzant TypeScript i TDD.

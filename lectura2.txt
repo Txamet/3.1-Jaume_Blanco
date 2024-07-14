@@ -1,0 +1,15 @@
+La funció throttle serveix per limitar la freqüència d'execució d'una funció en resposta a
+esdeveniments repetits. 
+
+A diferència de la funció debounce, que retarda l'execució de la funció fins que no es produeix
+cap esdeveniment durant un determinat temps, la funció throttle permet executar la funció a
+intervals de temps regulars.
+
+En altres paraules, la funció throttle establirà un interval de temps entre les execucions de la
+funció per assegurar-se que no s'executi més sovint del necessari. 
+
+Aquesta tècnica és útil quan es vol controlar la freqüència d'execució d'una funció en resposta a
+esdeveniments repetitius, com ara desplaçaments, actualitzacions d'interfícies d'usuari o crides
+a funcions costoses.
+
+En aquesta tasca has d'implementar una funció throttle utilitzant TypeScript i TDD.
