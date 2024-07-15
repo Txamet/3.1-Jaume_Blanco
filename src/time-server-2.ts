@@ -13,10 +13,18 @@ let newHours = (hours < 10) ? "0" + hours : hours;
 let newMinutes = (minutes < 10) ? "0" + minutes : minutes;
 
 
-let totalDate = `${newYear}-${newMonth}-${newDate} ${newHours}:${newMinutes}\n`;
+let totalDate: string = `${newYear}-${newMonth}-${newDate} ${newHours}:${newMinutes}\n`;
 
 const server = net.createServer((socket: any) => {
-  //socket.write(totalDate);
   socket.end(totalDate);
-})
-server.listen(process.argv[2]);
+}).listen(process.argv[2]);
+
+const client = new net.Socket();
+
+client.connect(process.argv[2]);
+
+client.on("data", (totalDate: string) => {
+  console.log(totalDate.toString());
+  client.end(process.exit(0));
+});
+
