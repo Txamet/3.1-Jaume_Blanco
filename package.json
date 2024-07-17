@@ -32,5 +32,9 @@
   "dependencies": {
     "bl": "^6.0.14",
     "through2-map": "^4.0.0"
+  },
+  "jest": {
+  	"preset": "ts-jest",
+  	"testEnvironment": "node"
   }
 }
