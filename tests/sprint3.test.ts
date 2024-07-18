@@ -237,11 +237,11 @@ describe("Testing http-json-api-server", () => {
             
         }).listen(3004);
 
-        http.get("http://localhost:3004/api/parsetime?iso=2013-08-10T12:10:15.474Z", (response: any) => {
+        http.get("http://localhost:3004/api/unixtime?iso=2013-08-10T12:10:15.474Z", (response: any) => {
           response.on("data", (data: any) => {
               let result = data.toString();
 
-              expect(result).toContain("{\"hour\":14,\"minute\":10,\"second\":15}");
+              expect(result).toContain("1376136615474");
               done();
           })
         })
