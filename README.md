@@ -7,23 +7,27 @@ Instalar los siguientes modulos en la terminal:
 - npx tsc
 
 # 2 - Ejercicios Learnyounode
+Escribir en la terminal desde la carpeta raíz:
+- cd learnyounode
+- npx tsc
+
 Para iniciar un ejercicio escribir en la terminal:
 - learnyounode
 
 Seleccionar el ejercicio y para comprobar si la solución es la correcta, introducir en la terminal (en función del ejercicio):
-1. HELLO WORLD - learnyounode verify ./learnyounode/dist/app/hello-world.js
-2. BABY STEPS - learnyounode verify ./learnyounode/dist/app/baby-steps.js
-3. MY FIRST I/0! - learnyounode verify ./learnyounode/dist/app/my-first-io.js
-4. MY FIRST ASYNC I/O! - learnyounode verify ./learnyounode/dist/app/my-first-async-io.js
-5. FILTERED LS - learnyounode verify ./learnyounode/dist/app/filtered-ls.js
-6. MAKE IT MODULAR - learnyounode verify ./learnyounode/dist/app/make-it-modular.js
-7. HTTP CLIENT - learnyounode verify ./learnyounode/dist/app/http-client.js
-8. HTTP COLLECT - learnyounode verify ./learnyounode/dist/app/http-collect.js
-9. JUGGLING ASYNC - learnyounode verify ./learnyounode/dist/app/juggling-async.js
-10. TIME SERVER - learnyounode verify ./learnyounode/dist/app/time-server.js
-11. HTTP FILE SERVER - learnyounode verify ./learnyounode/dist/app/http-file-server.js
-12. HTTP UPPERCASERER - learnyounode verify ./learnyounode/dist/app/http-uppercaserer.js
-13. HTTP JSON API SERVER - learnyounode verify ./learnyounode/dist/app/http-json-api-server.js
+1. HELLO WORLD - learnyounode verify ./dist/app/hello-world.js
+2. BABY STEPS - learnyounode verify ./dist/app/baby-steps.js
+3. MY FIRST I/0! - learnyounode verify ./dist/app/my-first-io.js
+4. MY FIRST ASYNC I/O! - learnyounode verify ./dist/app/my-first-async-io.js
+5. FILTERED LS - learnyounode verify ./dist/app/filtered-ls.js
+6. MAKE IT MODULAR - learnyounode verify ./dist/app/make-it-modular.js
+7. HTTP CLIENT - learnyounode verify ./dist/app/http-client.js
+8. HTTP COLLECT - learnyounode verify ./dist/app/http-collect.js
+9. JUGGLING ASYNC - learnyounode verify ./dist/app/juggling-async.js
+10. TIME SERVER - learnyounode verify ./dist/app/time-server.js
+11. HTTP FILE SERVER - learnyounode verify ./dist/app/http-file-server.js
+12. HTTP UPPERCASERER - learnyounode verify ./dist/app/http-uppercaserer.js
+13. HTTP JSON API SERVER - learnyounode verify ./dist/app/http-json-api-server.js
 
 # 3 - Escenarios simulados con scripts propios
 Desde la carpeta raíz escribir en la terminal el script indicado cada ejercicio a continuación y seguir las instrucciones.
