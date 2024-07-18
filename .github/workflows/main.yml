@@ -23,6 +23,9 @@ jobs:
         run: |
           npm init -y --no-audit --nofund --no-optional
           npm install typescript -D
+          npm i bl
+          npm install through2-map
+          npx tsc
           
       - name: Test with Jest
         run: npm test     
