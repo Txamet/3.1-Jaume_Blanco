@@ -23,4 +23,7 @@ jobs:
         run: |
           npm init -y --no-audit --nofund --no-optional
           npm install typescript -D
+          
+      - name: Test with Jest
+        run: npm test     
             
