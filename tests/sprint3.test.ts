@@ -167,12 +167,6 @@ describe("Testing juggling-async", () => {
     });
 });
 
-describe("Testing time-server", () => {
-    test("Should work properly", done => {
-        
-    })
-})
-
 describe("Testing http-file-server", () => {
     test("Should work properly", done => {
         http.get("http://localhost:3000/", (response: any) => {
